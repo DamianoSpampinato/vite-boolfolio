@@ -12,7 +12,7 @@ export default {
 
 <template>
   <AppHeader></AppHeader>
-<ProjectsList></ProjectsList> 
+  <router-view></router-view>
 </template>
 
 <style lang="scss">
