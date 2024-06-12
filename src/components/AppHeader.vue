@@ -32,4 +32,10 @@ export default {
 </template>
 
 <style lang="scss">
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 </style>
