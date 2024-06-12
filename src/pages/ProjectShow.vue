@@ -40,7 +40,7 @@ import axios from 'axios';
     <span v-for="technology in project.technologies" class="badge rounded-pill text-bg-primary m-1 ">{{ technology.name }}</span>
 </div>
 <div v-if="project.img">
-    <img :src="`http://127.0.0.1:8000/${project.img}`" alt="non funziona il link">
+    <img :src="`http://127.0.0.1:8000/storage/${project.img}`" alt="non funziona il link">
 
 </div>
 </div>
